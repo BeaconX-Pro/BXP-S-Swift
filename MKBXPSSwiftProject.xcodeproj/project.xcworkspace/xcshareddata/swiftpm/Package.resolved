@@ -1,0 +1,186 @@
+{
+  "originHash" : "00405e9aa0a50c6ab253fed200931d5140a3b2b69a117f7269e726d626951164",
+  "pins" : [
+    {
+      "identity" : "devicekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/devicekit/DeviceKit.git",
+      "state" : {
+        "revision" : "56b997e8a61707218f9af09f32b2a1d1806fd792",
+        "version" : "5.8.0"
+      }
+    },
+    {
+      "identity" : "fscalendar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/WenchaoD/FSCalendar.git",
+      "state" : {
+        "revision" : "0fbdec5172fccb90f707472eeaea4ffe095278f6",
+        "version" : "2.8.4"
+      }
+    },
+    {
+      "identity" : "ios-dfu-library",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NordicSemiconductor/IOS-DFU-Library.git",
+      "state" : {
+        "revision" : "9c87e9fbce1980487373c2330f066612dad5ba82",
+        "version" : "4.17.0"
+      }
+    },
+    {
+      "identity" : "iqkeyboardcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardCore.git",
+      "state" : {
+        "revision" : "4ece00fae7ddff664eb7b2c7d3b4b722bcdd438c",
+        "version" : "1.0.9"
+      }
+    },
+    {
+      "identity" : "iqkeyboardmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardManager.git",
+      "state" : {
+        "revision" : "3989683f60dfc33df6063f9a8d0fabb50a910e9d",
+        "version" : "7.2.0"
+      }
+    },
+    {
+      "identity" : "iqkeyboardnotification",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardNotification.git",
+      "state" : {
+        "revision" : "efa705d7200edd95b6e31e65e25171f7e897f995",
+        "version" : "1.0.7"
+      }
+    },
+    {
+      "identity" : "iqtextinputviewnotification",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQTextInputViewNotification.git",
+      "state" : {
+        "revision" : "723784a2197121bb76a940cc6d79fd2fa6c23f43",
+        "version" : "1.0.9"
+      }
+    },
+    {
+      "identity" : "libxlsxwriter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jmcnamara/libxlsxwriter",
+      "state" : {
+        "revision" : "2894634d65cee6021901a165bfc2bb0fad6da193",
+        "version" : "1.2.4"
+      }
+    },
+    {
+      "identity" : "mjrefresh",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CoderMJLee/MJRefresh.git",
+      "state" : {
+        "revision" : "535d39c86e592d73f8b8e75f9bf1eda62ca4a4ce",
+        "version" : "3.7.9"
+      }
+    },
+    {
+      "identity" : "mkbaseswiftmodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MOKO-iOS-Base-Library/MKBaseSwiftModule.git",
+      "state" : {
+        "revision" : "34ff8ca2db8b92e491c95f38500fb5882cdbd3dc",
+        "version" : "1.1.1"
+      }
+    },
+    {
+      "identity" : "mkswiftbeaconxcustomui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MOKO-iOS-Base-Library/MKSwiftBeaconXCustomUI.git",
+      "state" : {
+        "revision" : "3a1e210137c359f8df4284fa5f721b4222dcb13e",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "mkswiftblemodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MOKO-iOS-Base-Library/MKSwiftBleModule.git",
+      "state" : {
+        "revision" : "aa138a4e5eb7613f833f7d98c8ffeb321ee296a0",
+        "version" : "1.1.2"
+      }
+    },
+    {
+      "identity" : "mkswiftcustomui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MOKO-iOS-Base-Library/MKSwiftCustomUI.git",
+      "state" : {
+        "revision" : "555082907c4a0bbb9994514e02f5adaf849537e5",
+        "version" : "1.0.8"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "swift-protobuf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-protobuf.git",
+      "state" : {
+        "revision" : "55d7a1cc5666b85c13464aea1c4b4a90feccb4c8",
+        "version" : "1.38.1"
+      }
+    },
+    {
+      "identity" : "swiftcbor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/unrelentingtech/SwiftCBOR.git",
+      "state" : {
+        "revision" : "fd929a6d8f7651ce0f63fc99397fd5762358cc29",
+        "version" : "0.6.0"
+      }
+    },
+    {
+      "identity" : "swiftyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
+      "state" : {
+        "revision" : "af76cf3ef710b6ca5f8c05f3a31307d44a3c5828",
+        "version" : "5.0.2"
+      }
+    },
+    {
+      "identity" : "textfieldeffects",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/raulriera/TextFieldEffects.git",
+      "state" : {
+        "revision" : "7e563d4d6d755bb1ab6c1c049f8c215d7c489100",
+        "version" : "1.7.0"
+      }
+    },
+    {
+      "identity" : "toast-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/scalessec/Toast-Swift.git",
+      "state" : {
+        "revision" : "ddccd20d6fb718448d9b179c454c561653fda7d5",
+        "version" : "5.1.1"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation",
+      "state" : {
+        "revision" : "22787ffb59de99e5dc1fbfe80b19c97a904ad48d",
+        "version" : "0.9.20"
+      }
+    }
+  ],
+  "version" : 3
+}

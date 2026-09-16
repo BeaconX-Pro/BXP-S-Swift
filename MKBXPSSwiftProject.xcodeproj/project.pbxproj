@@ -6,8 +6,31 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0072102030562AB7004F5FED /* MKSwiftBleModule in Frameworks */ = {isa = PBXBuildFile; productRef = 0072101F30562AB7004F5FED /* MKSwiftBleModule */; };
+		00B1101030562AB7004F5FED /* MKSwiftBeaconXCustomUI in Frameworks */ = {isa = PBXBuildFile; productRef = 00B1100F30562AB7004F5FED /* MKSwiftBeaconXCustomUI */; };
+		BL00000230562AB7004F5FED /* MKBXPSSwiftProject/blelib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BL00000130562AB7004F5FED /* MKBXPSSwiftProject/blelib.xcframework */; };
+		BL00000330562AB7004F5FED /* MKBXPSSwiftProject/blelib.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BL00000130562AB7004F5FED /* MKBXPSSwiftProject/blelib.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF00000130562AB7004F5FED /* NordicDFU in Frameworks */ = {isa = PBXBuildFile; productRef = DF00000330562AB7004F5FED /* NordicDFU */; };
+		DF00000430562AB7004F5FED /* SwiftCBOR in Frameworks */ = {isa = PBXBuildFile; productRef = DF00000630562AB7004F5FED /* SwiftCBOR */; };
+		DF00000530562AB7004F5FED /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = DF00000730562AB7004F5FED /* SwiftProtobuf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BL00000430562AB7004F5FED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = Frameworks;
+			files = (
+				BL00000330562AB7004F5FED /* MKBXPSSwiftProject/blelib.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		009BF20A3054FB20001F2005 /* MKBXPSSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKBXPSSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BL00000130562AB7004F5FED /* MKBXPSSwiftProject/blelib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MKBXPSSwiftProject/blelib.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -22,6 +45,12 @@
 		009BF2073054FB20001F2005 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				BL00000230562AB7004F5FED /* MKBXPSSwiftProject/blelib.xcframework in Frameworks */,
+				0072102030562AB7004F5FED /* MKSwiftBleModule in Frameworks */,
+				00B1101030562AB7004F5FED /* MKSwiftBeaconXCustomUI in Frameworks */,
+				DF00000130562AB7004F5FED /* NordicDFU in Frameworks */,
+				DF00000430562AB7004F5FED /* SwiftCBOR in Frameworks */,
+				DF00000530562AB7004F5FED /* SwiftProtobuf in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -30,6 +59,7 @@
 		009BF2013054FB20001F2005 = {
 			isa = PBXGroup;
 			children = (
+				BL00000130562AB7004F5FED /* MKBXPSSwiftProject/blelib.xcframework */,
 				009BF20C3054FB20001F2005 /* MKBXPSSwiftProject */,
 				009BF20B3054FB20001F2005 /* Products */,
 			);
@@ -52,6 +82,7 @@
 			buildPhases = (
 				009BF2063054FB20001F2005 /* Sources */,
 				009BF2073054FB20001F2005 /* Frameworks */,
+				BL00000430562AB7004F5FED /* Embed Frameworks */,
 				009BF2083054FB20001F2005 /* Resources */,
 			);
 			buildRules = (
@@ -60,6 +91,13 @@
 				009BF20C3054FB20001F2005 /* MKBXPSSwiftProject */,
 			);
 			name = MKBXPSSwiftProject;
+			packageProductDependencies = (
+				0072101F30562AB7004F5FED /* MKSwiftBleModule */,
+				00B1100F30562AB7004F5FED /* MKSwiftBeaconXCustomUI */,
+				DF00000330562AB7004F5FED /* NordicDFU */,
+				DF00000630562AB7004F5FED /* SwiftCBOR */,
+				DF00000730562AB7004F5FED /* SwiftProtobuf */,
+			);
 			productName = MKBXPSSwiftProject;
 			productReference = 009BF20A3054FB20001F2005 /* MKBXPSSwiftProject.app */;
 			productType = "com.apple.product-type.application";
@@ -88,6 +126,13 @@
 			);
 			mainGroup = 009BF2013054FB20001F2005;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0072101E30562AB7004F5FED /* XCRemoteSwiftPackageReference "MKSwiftBleModule" */,
+				00B1100E30562AB7004F5FED /* XCRemoteSwiftPackageReference "MKSwiftBeaconXCustomUI" */,
+				DF00000230562AB7004F5FED /* XCRemoteSwiftPackageReference "IOS-DFU-Library" */,
+				DF00000830562AB7004F5FED /* XCRemoteSwiftPackageReference "SwiftCBOR" */,
+				DF00000930562AB7004F5FED /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 009BF20B3054FB20001F2005 /* Products */;
 			projectDirPath = "";
@@ -154,6 +199,10 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/MKBXPSSwiftProject",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -216,6 +265,10 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/MKBXPSSwiftProject",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -237,41 +290,43 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2026091201;
 				DEVELOPMENT_TEAM = R558LEUW2T;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs Bluetooth to connect and communicate with BLE devices.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moko.MKBXPSSwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 27.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 18.0;
 			};
 			name = Debug;
 		};
@@ -281,41 +336,43 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2026091201;
 				DEVELOPMENT_TEAM = R558LEUW2T;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs Bluetooth to connect and communicate with BLE devices.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moko.MKBXPSSwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 27.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 18.0;
 			};
 			name = Release;
 		};
@@ -339,6 +396,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0072101E30562AB7004F5FED /* XCRemoteSwiftPackageReference "MKSwiftBleModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MOKO-iOS-Base-Library/MKSwiftBleModule.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		00B1100E30562AB7004F5FED /* XCRemoteSwiftPackageReference "MKSwiftBeaconXCustomUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MOKO-iOS-Base-Library/MKSwiftBeaconXCustomUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		DF00000230562AB7004F5FED /* XCRemoteSwiftPackageReference "IOS-DFU-Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NordicSemiconductor/IOS-DFU-Library.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.17.0;
+			};
+		};
+		DF00000830562AB7004F5FED /* XCRemoteSwiftPackageReference "SwiftCBOR" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/unrelentingtech/SwiftCBOR.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		DF00000930562AB7004F5FED /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.25.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0072101F30562AB7004F5FED /* MKSwiftBleModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0072101E30562AB7004F5FED /* XCRemoteSwiftPackageReference "MKSwiftBleModule" */;
+			productName = MKSwiftBleModule;
+		};
+		00B1100F30562AB7004F5FED /* MKSwiftBeaconXCustomUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00B1100E30562AB7004F5FED /* XCRemoteSwiftPackageReference "MKSwiftBeaconXCustomUI" */;
+			productName = MKSwiftBeaconXCustomUI;
+		};
+		DF00000330562AB7004F5FED /* NordicDFU */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF00000230562AB7004F5FED /* XCRemoteSwiftPackageReference "IOS-DFU-Library" */;
+			productName = NordicDFU;
+		};
+		DF00000630562AB7004F5FED /* SwiftCBOR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF00000830562AB7004F5FED /* XCRemoteSwiftPackageReference "SwiftCBOR" */;
+			productName = SwiftCBOR;
+		};
+		DF00000730562AB7004F5FED /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF00000930562AB7004F5FED /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 009BF2023054FB20001F2005 /* Project object */;
 	validationLevel = 1;
